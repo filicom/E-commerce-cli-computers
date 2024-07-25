@@ -51,10 +51,10 @@
 }
 
 .badge-carrinho {
-    background-color: var(--dark-blue);
+    /*background-color: var(--dark-blue);*/
     padding: 5px 10px;    
     border-radius: 4px;
-    color: white;
+    color: rgb(27, 236, 62);
 }
 
 .search-form{

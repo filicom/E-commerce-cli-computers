@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { CarrinhoModule } from './carrinho/carrinho.module'
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSnackBarModule,
+    CarrinhoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
