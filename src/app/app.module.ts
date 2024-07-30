@@ -22,7 +22,7 @@ import { CarrinhoModule } from './carrinho/carrinho.module'
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
-    CarrinhoModule
+    CarrinhoModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
